@@ -19,8 +19,16 @@ label {
 }
 
 input[type='number'] {
-    font: normal 15px Open Sans !important;
-    z-index: 30px;
+    font: normal 4.2em Open Sans !important;
+    text-align: center;
+    //width: 3000px !important;
+    //padding:10px !important;
+    position:fixed;
+    width:70vw;
+    height:20vh;
+    margin-left:15vw;
+    margin-top:40vh;
+    border-radius: 1rem;
 }
 #fixedbuttonHome {
     z-index: 3;
@@ -42,10 +50,16 @@ input[type='number'] {
     padding-right: 0 !important;
 }
 
+
 #goButton {
+    position:fixed;
+    bottom:0;
+    left:0;
     width:100%;
-    padding-left: 46%;
-    padding-right: 54%;
+    //padding-top: 5vh;
+    text-align: center;
+    height:20vh;
+    font-size: 4em;
 }
 
 * {
