@@ -1,0 +1,108 @@
+#map {
+    width: 100%;
+}
+
+#panelBG {
+    position: absolute;
+    top: 1150px;
+    z-index: 3;
+    padding-left: 5px;
+    width: 500px;
+    height: 100%px;
+}
+
+label {
+    padding-top: 0px !important;
+    font: normal Open Sans !important;
+    color: #FFF;
+    position: right !important;
+}
+
+input[type='number'] {
+    font: normal 15px Open Sans !important;
+    z-index: 30px;
+}
+#fixedbuttonHome {
+    z-index: 3;
+    position: fixed;
+    display: block;
+    bottom: 25px;
+    left: 80px; 
+}    
+#mainContent {
+    overflow: hidden;
+}
+
+#mainContent > [class*="col-"] {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+#mainContent > .col-md-2 {
+    padding-right: 0 !important;
+}
+
+#goButton {
+    width:100%;
+    padding-left: 46%;
+    padding-right: 54%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 3rem;
+    font-family: Open Sans;
+}
+
+select {
+    font-size: 3rem;
+}
+
+p {
+    hidden;
+    width:100%;
+    padding-left:47%;
+    padding-right: 53%
+    padding-bottom:20px;
+}
+
+#keyboard {
+    width: 80%;
+    padding-left: 20%;
+    overflow: hidden;
+}
+
+.key {
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 0.7rem;
+    margin: 0 0.5%;
+    width: 9%;
+    padding: 3.5rem 0;
+    text-align: center;
+    float: left;
+    text-transform: uppercase;
+    transition: margin 150ms ease-in-out;
+    font-weight: bold;
+}
+
+.key span {
+    font-size: 1.8rem;
+    display: inline-block;
+    padding: 1rem;
+    margin-top: 1rem;
+    background: #ccc;
+    border-radius: 0.4rem;
+}
+
+.playing {
+    background: #ddd;
+    margin-top: 2rem;
+}
